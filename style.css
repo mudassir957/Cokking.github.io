@@ -1,0 +1,216 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+	background: url(Back.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+h1
+{
+   	text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.btn
+{
+	padding:10px 10px;
+	font-weight:bold;
+	border-color: #DFA95D;
+	text-transform: uppercase;
+	font-size:15px;
+	border-radius: 300px;
+	background-color: #DFA95D;
+    
+
+
+}
+.btn-primary:hover
+{
+	background-color: #B67820;
+	border-color:#B67820 ;
+	border-width:4px; 
+
+}
+
+ hr
+ {
+ 	border-width:5px;
+ 	border-color:#DFA95D;
+ 	border-radius: 4px;
+ 	max-width: 70px;
+ 
+
+ }
+
+.buffer
+{
+	height:100px;
+}
+
+.Submenu
+{
+	display: none;
+}
+.Menu ul li:hover .Submenu
+{
+	display :block;
+   	position: absolute;
+   	text-align: left;
+   	margin-top: 0px;
+  	margin-left: -40px;
+   	z-index: 1;
+}
+ .Menu ul li:hover .Submenu ul 
+   {
+   	display: block;
+   	background-color:#F0F8F8;
+   	}
+   	.Menu ul li
+   	{
+   	  list-style: none;
+
+   	}
+   	
+   	.Menu ul li a 
+   	{
+   		text-decoration: none;
+   		color:#fd7e14;
+   		font-size: 40px;
+   		font-weight: bold;
+   		font-family: 'Poiret One', cursive;
+
+   	}
+   	
+  .Submenu ul li a
+  {
+  	background-color: #ffff;
+  	font-family: 'Poiret One', cursive;
+  	color:#D46A6A;
+  	opacity: 1;
+  	font-size: 25px;
+  	text-decoration: none;
+  	transition:all 1s;
+
+  }
+  .Submenu li:hover
+  {
+  	background-color: #ffffff;
+  	transform: scale(0.9);
+  }
+  .Submenu a:hover
+  {
+  	color:#6c7fab;
+  }
+  .about p
+  
+  {
+  
+     color:#ffffff;
+     text-align: left;
+     
+
+     font-size: 20px;
+
+     font-style: italic;
+     font-weight: bold;
+     background-color:rgba(0,0,0,0.4);
+  }
+
+.container2
+{
+	display: grid;
+	
+	grid-template-columns: 1fr 1fr;
+
+	
+	width: 40%;
+	margin-left: 10%;
+		
+}
+
+
+
+.container2 img
+{
+	transition:all 1.7s;
+  /*New CSS*/
+
+  padding: 2%;
+
+
+	width: 100%;
+}
+.container2 img:hover
+{
+	transform: scale(1.1);
+}
+.social-icons
+{
+	display: inline-flex;
+	text-align: center;
+  margin-left: 30%;
+
+
+    }
+  .social-icons a
+  {
+  	width:10rem;
+  	font-size: 20px;
+  	opacity: 0.7;
+    color:#6610f2;;
+  	 
+  	
+  }
+.social-icons a:hover
+{
+	opacity: 1;
+
+}
+body{
+	overflow-x: hidden;
+}
+
+.End img   
+{
+  transform: scale(1.4);
+}
+.End
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: fit-content;
+  background-color: rgba(0,0,0,0.2);
+}
+p
+{
+  text-transform: uppercase;
+  text-align:center;
+  font-size: 35px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.Menu{
+  margin-right: 5%;
+}
+
+
+.copy p
+{
+  position: absolute;
+  top :110rem;
+  background-color: none;
+  color:black;
+  font-size: 16px;
+  
+}
